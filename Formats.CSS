@@ -1,0 +1,20 @@
+#Home{background-color: blueviolet;}
+#About{background-color: aquamarine;}
+.Work {background-color: brown;}
+#Resume {background-color: beige;}
+#Contact {background-color: bisque;}
+#Contact label {color: blue}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+  @keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+
